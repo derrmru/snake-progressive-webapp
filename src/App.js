@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+import Snake from 'snake-game-react';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Snake 
+        color1="#FFBC42"
+        color2="#0496FF"
+        backgroundColor="#8F2D56"
+        />  
     </div>
   );
 }
