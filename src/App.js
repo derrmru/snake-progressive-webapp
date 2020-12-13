@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <Snake 
-        color1="#FFBC42"
-        color2="#0496FF"
-        backgroundColor="#8F2D56"
+        color1="#9BC53D"
+        color2="#942911"
+        backgroundColor="#DFDDE4"
         />  
     </div>
   );
